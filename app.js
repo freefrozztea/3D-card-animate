@@ -22,7 +22,7 @@ container.addEventListener("mouseenter", (e) =>{
     card.style.transition = "none";
     //Popout
     title.style.transform = "translateZ(150px)";
-    sneaker.style.transform = "translateZ(150px)";
+    sneaker.style.transform = "translateZ(150px) rotateZ(15deg)";
     purchase.style.transform = "translateZ(150px)";
     description.style.transform = "translateZ(150px)";
     sizes.style.transform = "translateZ(150px)";
