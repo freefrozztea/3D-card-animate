@@ -1,0 +1,116 @@
+body{
+    font-family: "Poppins", sans-serif;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.container{
+    width: 50%;
+    height: 90vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    perspective: 1000px;
+}
+
+.card{
+    transform-style: preserve-3d;
+    min-height: 75vh;
+    width: 25rem;
+    box-shadow: 0 20px 20px rgba(0, 0, 0, 0.2), 0px 0px 50px rgba(0, 0, 0, 0.2), 0px 0px 70px rgba(0, 0, 0, 0.2);
+    /*background: lightcoral;
+    */
+    border-radius: 20px;
+}
+
+.sneaker{
+    min-height: 30vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: all 0.75s ease-out;
+}
+
+.sneaker img{
+    width: 18rem;
+    z-index: 2;
+
+}
+
+.circle{
+    margin-top: 1rem;
+    width: 13rem;
+    height: 13rem;
+    background: linear-gradient(        to right,        rgba(245, 70, 66, 0.75),        rgba(8, 83, 156, 0.75)    );
+    position: absolute;
+    border-radius: 50%;
+    -webkit-border-radius: 50%;
+    -moz-border-radius: 50%;
+    -ms-border-radius: 50%;
+    -o-border-radius: 50%;
+    z-index: 1;
+}
+
+.info{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.info h1{
+    font-size: 3rem;
+    transition: all 0.75s ease-out;
+}
+
+.info h3{
+    font-size: 1.1rem;
+    padding: 2rem;
+    color: #585858;
+    font-weight: lighter;
+    transition: all 0.75s ease-out;
+}
+
+.sizes{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 2rem;
+    transition: all 0.75s ease-out;
+}
+
+.sizes button{
+    padding: 0.5rem 2rem;
+    background: none;
+    border: none;
+    border-radius: 20px;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.2);
+    cursor: pointer;
+    font-weight: bold;
+    color: #585858;
+}
+
+button.active{
+    background: #585858;
+    color: white;
+}
+
+.purchase{
+    margin: 5rem 7rem;
+    transition: all 0.75s ease-out;
+}
+
+.purchase button{
+    width: 100%;
+    padding: 1rem 0rem;
+    background: #f54642;
+    border: none;
+    color: white;
+    cursor: pointer;
+    font-weight: bolder;
+    border-radius: 20px;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
+}
